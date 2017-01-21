@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="envType" value="remote"/>
+  <parameter name="Browser" value="firefox"/>
+  <test name="TestOnIE(failed)">
+    <parameter name="envType" value="remote"/>
+    <parameter name="Browser" value="ie"/>
+    <classes>
+      <class name="com.animana.scenario.Animana">
+        <methods>
+          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- com.animana.scenario.Animana -->
+    </classes>
+  </test> <!-- TestOnIE(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,5 @@
+{
+"username":"id;username",
+"password":"id;password",
+"Login":"cssSelector;body > div > div.login-panel > form > div:nth-child(3) > div > input.button.expand"
+}

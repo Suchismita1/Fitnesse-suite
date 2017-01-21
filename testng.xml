@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="TestOnIE">
+  <parameter name="Browser" value="ie"/>
+  <parameter name="envType" value="remote" />
+    <classes>
+      <class name="com.animana.scenario.Animana"/>
+    </classes>
+  </test> 
+  <test name="TestOnChrome">
+  <parameter name="Browser" value="chrome"/>
+  <parameter name="envType" value="remote" />
+    <classes>
+      <class name="com.animana.scenario.Animana"/>
+    </classes>
+  </test>
+  <test name="TestOnfirefox">
+  <parameter name="Browser" value="firefox"/>
+  <parameter name="envType" value="remote" />
+    <classes>
+      <class name="com.animana.scenario.Animana"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
